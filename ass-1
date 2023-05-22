@@ -1,0 +1,13 @@
+#include<stdio.h>
+main()
+{
+	char ch;
+	scanf("%c",&ch);
+	if( (ch>='A')&&(ch<='z'))
+	printf("Alphabet");
+	else
+	if((ch>='1')&&(ch<='100'))
+	printf("Digit");
+	else
+	printf("Spl Symbol");
+}
